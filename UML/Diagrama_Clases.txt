@@ -1,0 +1,13 @@
+# Diagrama de Clases
+
++------------------+          +----------------+
+|     Mes          |          |  MesService    |
++------------------+          +----------------+
+| - int numero     | 1       *| + getMesInfo() |
+| - String nombre  | <--------| + getNombre()  |
+| - int dias       |          | + getDias()    |
++------------------+          +----------------+
+| + Mes()          |
+| + getNombre()    |
+| + getDias()      |
++------------------+

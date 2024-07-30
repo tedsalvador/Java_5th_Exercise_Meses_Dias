@@ -29,16 +29,4 @@ Entregable:
 - Repositorio de git
 - Obligatorio realizar los pruebas unitarias
 
-# Diagrama de Clases
-
-+------------------+          +----------------+
-|     Mes          |          |  MesService    |
-+------------------+          +----------------+
-| - int numero     |1      *  | + getMesInfo() |
-| - String nombre  | <--------| + getNombre()  |
-| - int dias       |          | + getDias()    |
-+------------------+          +----------------+
-| + Mes()          |
-| + getNombre()    |
-| + getDias()      |
-+------------------+
+![Diagrama de Clases](UML/Diagrama_Clases.jpg)
