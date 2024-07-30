@@ -34,7 +34,7 @@ Entregable:
 +------------------+          +----------------+<br>
 |     Mes          |          |  MesService    |<br>
 +------------------+          +----------------+<br>
-| - int numero     |1      *  | + getMesInfo() |<br>
+| - int numero     |1       * | + getMesInfo() |<br>
 | - String nombre  | <--------| + getNombre()  |<br>
 | - int dias       |          | + getDias()    |<br>
 +------------------+          +----------------+<br>
